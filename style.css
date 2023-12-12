@@ -306,14 +306,44 @@ font-weight: 300;
     }
 /* small screen*/
 @media only screen and (max-width: 500px){
-    #header {
+    #header col- {
         background-image: url(./images/YAS280.jpg);
         border-radius: 100%;
+            width: 100%;
     
 
     }
+    #nav {
+        
+    }
+
+    div#header {
+        background-image: url(media-queries-phone.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    div#header h1 {
+        font-size: 140%;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+    }
+
+    #container {
+        float:none;
+        width: auto;
+        width: 400px;
+    }
+    .header-text{
+        float:none;
+        width: auto;
+        width: 300px;
+    }
+}
 
    .work{ flex-direction: column
    }
 
-}
