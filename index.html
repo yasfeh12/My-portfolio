@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1a599a4b09.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header" >
@@ -75,10 +76,108 @@
 
 </div>
 
+<div id="services"> 
+  <div class="container">
+    <h1 class="subtitle">my services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-calculator"></i>
+        <h2>calculator</h2>
+        <p>i built a calculator app</p>
+        <a href="#">calculator</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>pyglatin translator</h2>
+        <p>i built a calculator app</p>
+        <a href="#">translator</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-notes-medical"></i>
+        <h2>BMI calculator</h2>
+        <p>i built a calculator app</p>
+        <a href="#">BMI calculator</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-lightbulb"></i>
+        <h2>LED Wall</h2>
+        <p>i built a calculator app</p>
+        <a href="#">LED Wall</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="portfolio">
+<div class="container">
+  <h1 class="subtitle" >my work</h1> 
+  <div class="work-list">
+    <div class="work">
+      <img src="./images/cool calc.jpg" alt="img of calculator">
+      <div class="layer">
+        <h3>calculator</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+      <a href=""><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="./images/What-Is-Pig-Latin-Origin-Meaning-Examples-1024x478.webp" alt="pyg latin transtaltion of the word hello">
+      <div class="layer">
+        <h3>pyg latin translator</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+      <a href=""><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="./images/bmi.webp" alt="BMI  IN LARGE ">
+      <div class="layer">
+        <h3>BMI calculator</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+      <a href=""><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="./images/02-portfolio-1.jpg" alt="LED LIGHT Wall">
+      <div class="layer">
+        <h3>LED Wall</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+      <a href=""><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div><div class="work">
+      <img src="./images/cool calc.jpg" alt="img of calculator">
+      <div class="layer">
+        <h3>calculator</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+      <a href=""><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+    
+  </div>
+  <a href="#" class="btn">see more</a>
+</div>
+</div>
+
 <script>
 
   var tablinks= document.getElementsByClassName("tab-links");
   var tabcontents= document.getElementsByClassName("tab-contents");
+  
+  function opentab (tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+
+  event.currentTarget.classList.add("active-link")
+  document.getElementById(tabname).classList.add("active-tab")
+  }
+
+ 
+  
 </script>
   </body>
 </html>
