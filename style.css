@@ -47,7 +47,7 @@ nav ul li a::after {
     content: "";
     width: 0;
 height: 2px;
-background: #ff004f;
+background: brown;
 position: absolute;
 left: 0;
 bottom: -6px;
@@ -68,12 +68,12 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ff004f;
+    color: brown;
 }
 
 #About{
     padding:  80px 5px;
-    color:#ff004f;
+    color:brown;
 }
 .row {
     display: flex;
@@ -119,7 +119,7 @@ nav ul li a:hover::after{
     content: "";
     width: 0;
     height: 2px;
-    background:#ff004f;
+    background:brown;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -189,7 +189,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div :hover{
-    color: #ff004f;
+    color: brown;
     transform: translateY(-10px);
 }
 
@@ -279,10 +279,31 @@ nav ul li a:hover::after{
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: brown;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 300;
+    text-align: center;}
 
+    #main-project{
+        width: 100%;
+        height: auto;
+    }
+
+    #sec-project{
+
+        max-width: 500px;
+        max-height: 250px;
+    }
 /* small screen*/
 @media only screen and (max-width: 500px){
     #header {
@@ -291,6 +312,8 @@ nav ul li a:hover::after{
     
 
     }
-     
+
+   .work{ flex-direction: column
+   }
 
 }
