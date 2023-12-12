@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" >
+   <div id="container">
+    <nav>
+      <h1 class="logo">Yaseen Fehad</h1>
+      <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">About Me</a></li>
+        <li> <a href="#">My Projects</a></li>
+        <li> <a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+   </div>
+    </div>
+    <div class="header-text">
+      <p> Welcome To My Portfolio! </p>
+      <h1>Hello, I'm <span>Yaseen Fehad</span> from Leeds United Kingdom</h1>
+
+    </div>
+<div id="About">
+  <div class="container">
+  <div class="row">
+    <div class="about-col-1">
+      <img src="./images/cool calc.jpg" alt="my first project- a calculator">
+    </div>
+    <div class="about-col-2">
+     <h1 class="subtitle" >About Me</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolore vitae earum sit quam sapiente voluptate animi eos eveniet, ipsam rerum fuga ipsum! Dicta accusamus numquam a. Illum, cumque facilis.</p>
+    <div class="tab-title">
+      <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+      <p class="tab-links "onclick="opentab('Projects')">Projects</p>
+      <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+    </div>
+
+    <div class="tab-contents active-tab" id="Skills">
+      <ul>
+          <li><span class="color-white">HTML</span> <br> website design</li>
+          <li><span class="color-white">CSS</span> <br> Front end engineering</li>
+          <li><span>python and java</span></li>
+      </ul>
+  </div>
+
+    <div class="tab-contents " id="Projects">
+      <ul>
+          <li><span class="color-white">calculator</span> <br> pyg latin translator</li>
+          <li><span class="color-white">CSS</span> <br> LED Wall</li>
+          <li><span>python and java</span></li>
+      </ul>
+  </div>
+
+
+
+<div class="tab-contents" id="Education">
+  <ul>
+      <li><span class="color-white">A levels:</span> <br> biology A </li>
+      <li><span class="color-white">chemistry A</span> <br> history A</li>
+      <li><span>python and java</span></li>
+  </ul>
+</div>
+  
+    </div>
+
+
+  </div>
+ </div>
+
+</div>
+
+<script>
+
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents= document.getElementsByClassName("tab-contents");
+</script>
+  </body>
+</html>
