@@ -13,10 +13,11 @@
     <nav>
       <h1 class="logo">Yaseen Fehad</h1>
       <ul>
-        <li> <a href="#">Home</a></li>
-        <li> <a href="#">About Me</a></li>
-        <li> <a href="#">My Projects</a></li>
-        <li> <a href="#">Contact Me</a></li>
+        <li> <a href="#" id="home-btn">Home</a></li>
+        <li> <a href="#About"  id="home-btn">About Me</a></li>
+        <li><a href="https://github.com/yasfeh12?tab=repositories" target="_blank"  id="home-btn">My Projects</a></li>
+        <li><a href="mailto:yaseenfehad@gmail.com" id="home-btn">Contact Me</a></li>
+
       </ul>
     </nav>
    </div>
@@ -34,7 +35,8 @@
     </div>
     <div class="about-col-2">
      <h1 class="subtitle" >About Me</h1>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolore vitae earum sit quam sapiente voluptate animi eos eveniet, ipsam rerum fuga ipsum! Dicta accusamus numquam a. Illum, cumque facilis.</p>
+     <p> 
+      As a Front End Engineer, I am passionate about crafting immersive digital experiences that seamlessly blend form and function. With a keen eye for design and a commitment to cutting-edge technologies, I specialize in translating creative concepts into intuitive user interfaces. My journey in web development has equipped me with a diverse skill set, from HTML and CSS fundamentals to advanced JavaScript frameworks like React.js. Constantly seeking to refine my craft, I thrive in collaborative environments where innovation and problem-solving reign supreme. Let's collaborate to bring your digital vision to life.</p>
     <div class="tab-title">
       <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
       <p class="tab-links "onclick="opentab('Projects')">Projects</p>
@@ -47,12 +49,15 @@
           <li><span class="color-white">HTML</span> <br> website design</li>
           <li><span class="color-white">CSS</span> <br> Front end engineering</li>
           <li><span>python and java</span></li>
+          <li><span>node.js and react</span></li>
       </ul>
   </div>
 
     <div class="tab-contents " id="Projects">
       <ul>
-          <li><span class="color-white">calculator</span> <br> pyg latin translator</li>
+          <li><span class="color-white">calculator</span> <br> weather app</li>
+          <li>Stockup financial app </li>
+          <li>hello curio</li>
           <li><span class="color-white">CSS</span> <br> LED Wall</li>
           <li><span> HTML, css, python and java</span></li>
       </ul>
@@ -65,7 +70,8 @@
       <li><span class="color-white">A levels:</span> <br> biology A </li>
       <li> <br> history A Chemistry A <br>
         <span class="color-white">EDex:</span></li>
-      <li><span> HTML,CSS and java</span></li>
+      <li><span> HTML, CSS, java, node.js, jsx, react</span></li>
+      <li><span>  APIs, bootstrap, tailwind</span></li>
   </ul>
 </div>
   
@@ -79,31 +85,35 @@
 
 <div id="services"> 
   <div class="container">
-    <h1 class="subtitle">my services</h1>
+    <h1 class="subtitle">My Services</h1>
     <div class="services-list">
-      <div>
+      <div id="service-card">
         <i class="fa-solid fa-calculator"></i>
-        <h2>calculator</h2>
-        <p>i built a calculator app</p>
-        <a href="https://github.com/yasfeh12/improved-accessibility">calculator</a>
+        <h2>css and web design</h2>
+        <p>
+          As a web designer, my CSS skills bring essential strengths to the table. I specialize in creating visually appealing and user-friendly websites by using CSS to style and layout content effectively. With expertise in responsive design and CSS frameworks like Bootstrap, I ensure websites look great on any device. I also add interactive elements like animations and transitions to enhance user experience. My CSS proficiency enables me to transform ideas into polished and engaging web designs efficiently, contributing to the success of projects and client satisfaction.</p>
+        <a href="https://github.com/yasfeh12/improved-accessibility" id="link-btn">My Work</a>
       </div>
-      <div>
+      <div  id="service-card">
         <i class="fa-solid fa-code"></i>
-        <h2>pyglatin translator</h2>
-        <p>i built a calculator app</p>
-        <a href="#">translator</a>
+        <h2>HTML</h2>
+        <p>
+          As a web designer, my proficiency in HTML is a fundamental asset that I bring to the table. HTML forms the backbone of every webpage, and I excel in crafting well-structured and semantically meaningful markup that lays a solid foundation for seamless user experiences. Whether it's building accessible and SEO-friendly content structures or integrating various media types, my expertise ensures that websites are not only visually appealing but also functional and easy to navigate. By staying updated with the latest HTML standards and best practices, I contribute to creating modern and future-proof web solutions that meet both client needs and industry standards.</p>
+        <a href="#" id="link-btn">My Work</a>
       </div>
-      <div>
+      <div  id="service-card">
         <i class="fa-solid fa-notes-medical"></i>
-        <h2>BMI calculator</h2>
-        <p>i built a calculator app</p>
-        <a href="#">BMI calculator</a>
+        <h2>JavaScript</h2>
+        <p>
+          My proficiency in JavaScript, coupled with expertise in JSX, React, and Node.js, brings invaluable contributions to my role as a web designer. With JavaScript, I enhance website interactivity by creating dynamic and responsive user interfaces. Leveraging JSX and React, I develop reusable components that streamline the development process and ensure consistency across web applications. Additionally, my knowledge of Node.js enables me to build server-side functionalities, handle data manipulation, and integrate real-time communication features seamlessly. By harnessing the power of these technologies, I elevate the user experience, foster scalability, and deliver robust web solutions that meet modern standards and exceed client expectations.</p>
+        <a href="#" id="link-btn">My Work</a>
       </div>
-      <div>
+      <div  id="service-card">
         <i class="fa-solid fa-lightbulb"></i>
-        <h2>LED Wall</h2>
-        <p>i built a calculator app</p>
-        <a href="#">LED Wall</a>
+        <h2>industry ready</h2>
+        <p>
+          My creativity fuels innovative web solutions, from visually captivating layouts to engaging interactive elements, ensuring projects stand out. Embracing teamwork, I thrive in collaborative environments, fostering open communication and leveraging diverse perspectives to deliver cohesive web solutions. Proficient in problem-solving within developer teams, I utilize Jest for unit testing, systematically validating code functionality to minimize bugs and enhance reliability. Through active collaboration and iterative refinement, I contribute to a culture of continuous improvement and quality assurance, exceeding expectations with every project.</p>
+        <a href="#" id="link-btn">My Work</a>
       </div>
 
     </div>
@@ -119,7 +129,7 @@
       <div class="layer">
         <h3> BMI calculator</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
-      <a href="https://github.com/yasfeh12/improved-accessibility"><i class="fa-solid fa-link"></i></a>
+      <a href="https://github.com/yasfeh12/improved-accessibility" id="project-btn"><i class="fa-solid fa-link" id="project-btn"></i></a>
       </div>
     </div>
     <div class="work">
@@ -127,7 +137,7 @@
       <div class="layer">
         <h3>pyg latin translator</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
-      <a href="https://github.com/yasfeh12/improved-accessibility"><i class="fa-solid fa-link"></i></a>
+      <a href="https://github.com/yasfeh12/improved-accessibility" id="project-btn"><i class="fa-solid fa-link" id="project-btn"></i></a>
       </div>
     </div>
     <div class="work">
@@ -135,7 +145,7 @@
       <div class="layer">
         <h3>calculator</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
-      <a href="https://github.com/yasfeh12/improved-accessibility"><i class="fa-solid fa-link"></i></a>
+      <a href="https://github.com/yasfeh12/improved-accessibility" id="project-btn"><i class="fa-solid fa-link" id="project-btn"></i></a>
       </div>
     </div>
     <div class="work">
@@ -143,14 +153,14 @@
       <div class="layer">
         <h3>LED Wall</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
-      <a href="https://github.com/yasfeh12/improved-accessibility"><i class="fa-solid fa-link"></i></a>
+      <a href="https://github.com/yasfeh12/improved-accessibility" id="project-btn"><i class="fa-solid fa-link" id="project-btn"></i></a>
       </div>
     </div><div class="work">
       <img id="sec-project" src="./images/cool calc.jpg" alt="img of calculator">
       <div class="layer">
         <h3>calculator</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
-      <a href="https://github.com/yasfeh12/improved-accessibility"><i class="fa-solid fa-link"></i></a>
+      <a href="https://github.com/yasfeh12/improved-accessibility" id="project-btn"><i class="fa-solid fa-link" id="project-btn"></i></a>
       </div>
     </div>
     
@@ -158,7 +168,7 @@
   <a href="https://github.com/yasfeh12/improved-accessibility" class="btn">see more</a>
 </div>
 </div>
-<footer> thanks for visiting my portfolio</footer>
+<footer> Thanks for visiting my portfolio</footer>
 <script>
 
   var tablinks= document.getElementsByClassName("tab-links");
